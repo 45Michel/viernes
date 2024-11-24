@@ -1,0 +1,76 @@
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5,auto);
+  
+    grid-template-areas:  "H H H H"
+                          "N N N N"
+                          "M M M M"
+                          "M M M M"
+                          "M M M M"
+                          "F F F F";
+  }
+  
+  header {
+    grid-area: H;
+  }
+  
+  nav {
+    grid-area: N;
+  }
+  
+  .nav-link{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  main{
+    grid-area: M;
+  }
+  
+  footer{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    grid-area: F; 
+  }
+  
+  address a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  
+  @media screen and (max-width: 900px) and (min-width: 551px) { 
+      #grid {        
+        grid-template-columns: repeat(3, 33.3%);
+        grid-template-rows: repeat(4, auto);
+  
+        grid-template-areas:    "H H H"
+                                "N N N"                                
+                                "M M M"                                                                
+                                "F F F"; 
+      }
+    }
+  
+    @media screen and (max-width: 550px) {  
+      #grid {        
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(5, auto);
+  
+        grid-template-areas:    "H H"
+                                "N N"
+                                "M M"
+                                "M M"                                                                  
+                                "F F"; 
+      }
+    }
+    
+  
+  
