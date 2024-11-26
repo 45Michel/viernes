@@ -5,7 +5,7 @@ export default function Settings() {
     return (
         <>
             <Sidenav/>
-            <h1>hola</h1>
+            <h1>Hi</h1>
         </>
     )
 }
