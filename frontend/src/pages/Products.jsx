@@ -7,8 +7,7 @@ import bol from "./img/bolso 1.png";
 import zap from "./img/zap M.png";
 import cha from "./img/cha M.png";
 import chaH from "./img/cha H.png";
-import zapH from "./img/zap H.png";
-import bolH from "./img/bolH.png";
+import zapH from "./img/zap H.png"
 
 
 
@@ -88,6 +87,10 @@ export default function Products() {
                         </div>
                     </div>
                 </main>
+                <footer>
+                    <Footer/>
+
+                </footer>
             </div>
             
         </>
