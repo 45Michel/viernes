@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Sidenav from "../Nav";
+import Sidenav from "../component/Nav";
 import './pages.css';
 import bar from "./img/bolso.png";
 import bol from "./img/bolso 1.png";

@@ -16,7 +16,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useNavigate } from 'react-router-dom';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import './App.css';
+import '../component/component.css';
 
 export default function Sidenav() {
   const [open, setOpen] = React.useState(false);

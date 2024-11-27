@@ -1,5 +1,5 @@
 import React from "react";
-import Sidenav from "../Nav";
+import Sidenav from "../component/Nav";
 
 export default function Settings() {
     return (
