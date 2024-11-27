@@ -5,6 +5,8 @@ import Products from './pages/Products';
 import Settings from './pages/Settings';
 import About from './pages/About';
 import CrearProductos from './pages/CrearProductos';
+import Cart from './pages/cart';
+
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
           <Route path='/about' exact element={<About/>}></Route>
           <Route path='/settings' exact element={<Settings/>}></Route>
           <Route path='/crear/productos' exact element={<CrearProductos/>}></Route>
+          <Route path='/crear/productos' exact element={<CrearProductos/>}></Route>
+          <Route path='/cart' exact element={<Cart/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

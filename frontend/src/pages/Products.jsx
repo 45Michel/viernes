@@ -7,7 +7,8 @@ import bol from "./img/bolso 1.png";
 import zap from "./img/zap M.png";
 import cha from "./img/cha M.png";
 import chaH from "./img/cha H.png";
-import zapH from "./img/zap H.png"
+import zapH from "./img/zap H.png";
+import bolH from "./img/bolH.png";
 
 
 
@@ -30,10 +31,10 @@ export default function Products() {
 
                     <div class="container text-center ">    
                         <div class="row mt-5">
-                            <h3 class="mb-5 fst-italic">Articulos de Hombre</h3>
+                            <h3 class="mb-5 fst-italic">Articulos de Mujer</h3>
                             <div class="col">
                                 <div class="card border border-0" >
-                                    <img src={zap} class="card-img-top" alt="..."/>
+                                    <img src={bol} class="card-img-top" alt="..."/>
                                     <div class="card-body">
                                         <p class="card-text">Bolso de mujer</p>
                                     </div>
@@ -62,7 +63,7 @@ export default function Products() {
                             <h3 class="mb-5 fst-italic">Articulos de Hombre</h3>
                             <div class="col">
                                 <div class="card border border-0" >
-                                    <img src={bol} class="card-img-top" alt="..."/>
+                                    <img src={bolH} class="card-img-top" alt="..."/>
                                     <div class="card-body">
                                         <p class="card-text">Bolso de mujer</p>
                                     </div>
@@ -72,7 +73,7 @@ export default function Products() {
                                 <div class="card border border-0" >
                                     <img src={zapH} class="card-img-top" alt="..."/>
                                     <div class="card-body">
-                                        <p class="card-text">Zapatos de Mujer</p>
+                                        <p class="card-text">Zapatos de Hombre</p>
                                     </div>
                                 </div>
                             </div>
