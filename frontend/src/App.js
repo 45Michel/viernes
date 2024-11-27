@@ -6,6 +6,7 @@ import Settings from './pages/Settings';
 import About from './pages/About';
 import CrearProductos from './pages/CrearProductos';
 import Cart from './pages/cart';
+import Favorite from './pages/favorite';
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/crear/productos' exact element={<CrearProductos/>}></Route>
           <Route path='/crear/productos' exact element={<CrearProductos/>}></Route>
           <Route path='/cart' exact element={<Cart/>}></Route>
+          <Route path='/favorite' exact element={<Favorite/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

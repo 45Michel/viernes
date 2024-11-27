@@ -84,13 +84,13 @@ export default function Sidenav() {
               </form>
             </div>
             <div className='col-1 d-flex justify-content-end'>
-              <button className=" btn btn-dark d-flex justify-content-end"><FavoriteIcon fontSize='large'/></button>
+              <button className=" btn btn-dark d-flex justify-content-end" onClick={()=>(navigate("/favorite"))}><FavoriteIcon fontSize='large'/></button>
             </div>
             <div className='col-1 d-flex justify-content-center'>
-              <button className=" btn btn-dark d-flex "><HomeRepairServiceIcon fontSize='large'/></button>
+              <button className=" btn btn-dark d-flex " onClick={()=>(navigate("/cart"))}><HomeRepairServiceIcon fontSize='large'/></button>
             </div>
             <div className='col-1 d-flex justify-content-center'>
-              <button className=" btn btn-dark d-flex "><AccountCircleIcon fontSize='large'/></button>
+              <button className=" btn btn-dark d-flex " onClick={()=>(navigate("/settings"))}><AccountCircleIcon fontSize='large'/></button>
             </div>
           </div>
         </nav>

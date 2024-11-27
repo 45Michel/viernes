@@ -89,10 +89,9 @@ export default function Products() {
                         </div>
                     </div>
                 </main>
-                <footer>
-                    <Footer/>
-
-                </footer>
+                    <footer>
+                        <Footer/>
+                    </footer>
             </div>
             
         </>

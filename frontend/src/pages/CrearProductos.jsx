@@ -1,6 +1,8 @@
 import React from "react";
 import Sidenav from "../component/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './pages.css';
+import Footer from "../component/Footer";
 
 export default function CrearProductos() {
     return (
@@ -43,6 +45,9 @@ export default function CrearProductos() {
                         <button type="button" class="btn btn-dark">Crear producto</button>
                     </div>  
                 </main>
+                <footer className="mt-5">
+                    <Footer/>
+                </footer>
             </div>
         </>
     )
